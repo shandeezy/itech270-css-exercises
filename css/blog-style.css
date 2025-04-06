@@ -18,7 +18,7 @@ header{
     align-items: center;
     height: 10rem;
     
-    background: url(../trees.jpeg);
+    background: url(./);
     background-repeat: center;
     background-position: center;
     background-size: cover;
@@ -62,5 +62,5 @@ footer p{
 article{
     margin-bottom: 5rem;
     box-shadow: 5px 5px 5px #9999;
-    border-left: 5px solid blueviolet;
+    
 }
