@@ -1,0 +1,82 @@
+:root{
+    --black: #373737;
+    --pink:pink ;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--black);
+    color:white;
+    
+   
+    
+
+
+  
+
+}
+
+header h1{
+    font-size: 4rem;
+    
+    
+}
+
+nav{
+    
+    font-size: 2rem;
+    
+   
+    
+
+}
+
+nav ul{
+    text-decoration: none;
+    text-align: center;
+
+}
+
+nav ul  li{
+    text-decoration: none;
+    display: inline-block;
+   /* margin-right: ; */
+    padding: 1rem;
+    
+}
+
+nav ul li.active{
+    /* background-color: var(--black); */
+    
+
+}
+
+nav ul li.active a{
+    color: pink;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: var(--black);
+    
+
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
